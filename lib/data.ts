@@ -1,7 +1,7 @@
 import React from "react";
-import { FaBootstrap, FaGitAlt, FaHtml5, FaJava, FaNodeJs, FaPython, FaReact, FaSass, FaVuejs } from "react-icons/fa";
+import { FaAws, FaBootstrap, FaDocker, FaGitAlt, FaGithub, FaHtml5, FaJava, FaNodeJs, FaPython, FaReact, FaSass, FaVuejs } from "react-icons/fa";
 import { TbBrandNextjs, TbCertificate } from "react-icons/tb";
-import { SiCplusplus, SiExpress, SiMongodb, SiRedux, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiCplusplus, SiExpress, SiMongodb, SiRedux, SiTailwindcss, SiTerraform, SiTypescript } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { RiSupabaseFill } from "react-icons/ri";
 import { LuGraduationCap } from "react-icons/lu";
@@ -12,6 +12,8 @@ import stackoverflowclone from "@/public/stackoverflowclone.png";
 import Connectify from "@/public/Connectify.jpg";
 import todolist from "@/public/todolist.png";
 import wordle from "@/public/wordle.png";
+import applifire from "@/public/applifire.png";
+import trackact from "@/public/trackact.png";
 
 export const links = [
   {
@@ -103,9 +105,27 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Applifire",
+    description:
+      "A simple Chrome Extension built with React, Tailwind CSS, and Shad/CN.",
+    tags: ["React", "ShadCN", "Tailwind", "Web Extension", "TypeScript"],
+    imageUrl: applifire,
+    livelink: "",
+    githublink: "https://github.com/JaiSukheja/applifire",
+  },
+  {
+    title: "TrackAct",
+    description:
+      "A Browser Activity Tracking Solution built with React, Node.js, MySQL, and Web Extension.",
+    tags: ["React", "JavaScript", "Node.js", "MySQL", "Web Extension"],
+    imageUrl: trackact,
+    livelink: "",
+    githublink: "https://github.com/JaiSukheja/",
+  },
+  {
     title: "Stackoverflow",
     description:
-      "A clone of Stackoverflow built with React, Next.js, SQL, Tailwind, and Framer Motion.",
+      "A clone of Stackoverflow built with React, Node.js, MongoDB, and Context API.",
     tags: ["React", "TypeScript", "Node.js", "MongoDB", "Context API"],
     imageUrl: stackoverflowclone,
     livelink: "https://stack-overflow-orcin.vercel.app/",
@@ -132,7 +152,7 @@ export const projectsData = [
   {
     title: "Connectify",
     description:
-      "A Social Media Platform with Realtime Chat Application where users can create account and connect with each other.",
+      "A Social Media Platform with Realtime Chatting facilitated by Socket.io.",
     tags: ["React", "Node.js", "MongoDB", "Socket.io", "Redux", "Sass"],
     imageUrl: Connectify,
     livelink: "",
@@ -143,19 +163,11 @@ export const projectsData = [
 
 export const skillsData = [
   {
-    skillName: "HTML",
-    skillIcon: React.createElement(FaHtml5),
-  },
-  {
-    skillName: "CSS",
-    skillIcon: React.createElement(FaCss3Alt),
-  },
-  {
-    skillName: "JavaScript",
-    skillIcon: React.createElement(IoLogoJavascript),
-  },
-  {
     skillName: "React",
+    skillIcon: React.createElement(FaReact),
+  },
+  {
+    skillName: "React Native",
     skillIcon: React.createElement(FaReact),
   },
   {
@@ -166,10 +178,7 @@ export const skillsData = [
     skillName: "Node.js",
     skillIcon: React.createElement(FaNodeJs),
   },
-  {
-    skillName: "Express",
-    skillIcon: React.createElement(SiExpress),
-  },
+  
   {
     skillName: "Vue.js",
     skillIcon: React.createElement(FaVuejs),
@@ -191,8 +200,28 @@ export const skillsData = [
     skillIcon: React.createElement(RiSupabaseFill),
   },
   {
+    skillName: "Express",
+    skillIcon: React.createElement(SiExpress),
+  },
+  {
+    skillName: "AWS",
+    skillIcon: React.createElement(FaAws)
+  },
+  {
     skillName: "Git",
     skillIcon: React.createElement(FaGitAlt),
+  },
+  {
+    skillName: "Docker",
+    skillIcon: React.createElement(FaDocker),
+  },
+  {
+    skillName: "GitHub",
+    skillIcon: React.createElement(FaGithub),
+  },
+  {
+    skillName: "Terraform",
+    skillIcon: React.createElement(SiTerraform),
   },
   {
     skillName: "Tailwind",
@@ -225,6 +254,18 @@ export const skillsData = [
   {
     skillName: "Java",
     skillIcon: React.createElement(FaJava),
+  },
+  {
+    skillName: "HTML",
+    skillIcon: React.createElement(FaHtml5),
+  },
+  {
+    skillName: "CSS",
+    skillIcon: React.createElement(FaCss3Alt),
+  },
+  {
+    skillName: "JavaScript",
+    skillIcon: React.createElement(IoLogoJavascript),
   },
 ] as const;
 

@@ -52,7 +52,7 @@ export default function Project({
             ))}
           </ul>
           <div className="flex gap-2">
-            {githublink && <a href="test.com" className="text-2xl mt-4 text-blue-500 hover:text-blue-600 transition w-max" target="_blank">
+            {githublink && <a href={githublink} className="text-2xl mt-4 text-blue-500 hover:text-blue-600 transition w-max" target="_blank">
               <FaGithub className="text-2xl text-blue-500 hover:text-blue-600" />
             </a>}
             {livelink && <a href={livelink} className="text-2xl mt-4 text-blue-500 hover:text-blue-600 transition w-max" target="_blank">
