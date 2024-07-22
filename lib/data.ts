@@ -178,7 +178,6 @@ export const skillsData = [
     skillName: "Node.js",
     skillIcon: React.createElement(FaNodeJs),
   },
-  
   {
     skillName: "Vue.js",
     skillIcon: React.createElement(FaVuejs),
@@ -192,12 +191,12 @@ export const skillsData = [
     skillIcon: React.createElement(GrMysql),
   },
   {
-    skillName: "Firebase",
-    skillIcon: React.createElement(IoLogoFirebase),
-  },
-  {
     skillName: "Supabase",
     skillIcon: React.createElement(RiSupabaseFill),
+  },
+  {
+    skillName: "Firebase",
+    skillIcon: React.createElement(IoLogoFirebase),
   },
   {
     skillName: "Express",
