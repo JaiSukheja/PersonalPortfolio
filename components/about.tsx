@@ -20,7 +20,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <div className="mb-3">
-        <div className="italic text-center"> I am an engineering student in Computer Science Engineering from Maharaja Agrasen Institute of Technology ,GGSIPU.</div>
+        <div className="italic text-center"> I am a final year Computer Science Engineering student from Maharaja Agrasen Institute of Technology, Guru Gobind Singh Indraprastha University.</div>
         <div className="flex flex-wrap w-9/10 ml-12">
           <span className="w-1/2 flex items-center gap-1">
             <BiSolidRightArrow className="inline-block" /> Degree: <span className="text-sky-500">B.Tech Computer Science</span>
@@ -37,7 +37,10 @@ export default function About() {
         </div>
       </div>
       <p className="italic text-center">
-        Innovative tech mind with 5 years of experience working as a computer programmer. Capable of working with a variety of technology and software solutions, and managing databases. Valuable team member who has experience diagnosing problems and developing solutions. Talented leader with unique ideas and a history of successful contributions in the field.
+        & 
+      </p>
+      <p className="italic text-center">
+        Innovative tech mind with 5 years of experience working as a computer programmer. Capable of working with a variety of technologies and software solutions, and managing databases. Valuable team member who has experience diagnosing problems and developing solutions. Talented leader with unique ideas and a history of successful contributions in the field.
       </p>
       <p className="italic text-center">
         I work on hobbies that are based on computers and technology. I am a Council Member at IOSD-MAIT Technical Society and Core Member at Codechef MAIT. In my free time I like to read about new Innovations in Computer Science and Technology.

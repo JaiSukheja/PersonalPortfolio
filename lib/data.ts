@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAws, FaBootstrap, FaDocker, FaGitAlt, FaGithub, FaHtml5, FaJava, FaNodeJs, FaPython, FaReact, FaSass, FaVuejs } from "react-icons/fa";
+import { FaAws, FaBootstrap, FaDocker, FaGitAlt, FaGithub, FaHtml5, FaJava, FaLinux, FaNodeJs, FaPython, FaReact, FaSass, FaVuejs } from "react-icons/fa";
 import { TbBrandNextjs, TbCertificate } from "react-icons/tb";
 import { SiCplusplus, SiExpress, SiMongodb, SiRedux, SiTailwindcss, SiTerraform, SiTypescript } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
@@ -36,10 +36,10 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Certificates",
-    hash: "#certificates",
-  },
+  // {
+  //   name: "Certificates",
+  //   hash: "#certificates",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -48,47 +48,109 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer",
-    location: "PSPTechHub Services Pvt. Ltd.",
-    description: [
-      "Empowered clients and boosted satisfaction with secure, real- time consultation app built using React Native, Firebase, Google Web Service, and AppScript. ","Crafted a responsive, static & SEO - optimized website showcasing advanced technologies, aiming to a 25 % increase in organic traffic within 3 months.",
-    ],
+    title: "AI Programmer",
+    location: "IBM Skillbuild",
+    description:
+      [
+        "Assisted in development of Vue.js based web application utilizing Supabase, created to enable 50% faster data insight extraction through Natural Language queries.","Crafted a visually compelling website landing page using HTML, CSS, and Bootstrap, aimed to improve lead capture by 15%. Integrated a Google Firebase-powered contact form for user queries."
+      ],
     icon: React.createElement(TbCertificate),
-    date: "May 2023 - Oct -2023",
-    link: "https://drive.google.com/file/d/1-K-ZwTyWDbkcj9BHGis2iQdgjDCMSWZB/view",
+    date: "June 2024 - July 2024",
+    link: "https://drive.google.com/file/d/15FYhHg6caiQ3msHZ405QDmPSV32-Ggk0/view?usp=sharing",
+    type: "Apprenticeship",
+    technologies: ["IBM cloud", "Watson Assistant", "chatbot development", "Artificial Intelligence","Machine Learning", "prompt engineering","Python"],
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full stack Developer",
+    location: "ZillionCosmos Tech Pvt. Ltd.",
+    description:
+      [
+        "Assisted in development of Vue.js based web application utilizing Supabase, created to enable 50% faster data insight extraction through Natural Language queries.","Crafted a visually compelling website landing page using HTML, CSS, and Bootstrap, aimed to improve lead capture by 15%. Integrated a Google Firebase-powered contact form for user queries."
+      ],
+    icon: React.createElement(TbCertificate),
+    date: "Mar 2024 - May 2024",
+    link: "https://drive.google.com/file/d/1foyCXG1s4x5WcRf7AG998F2NyERpth1i/view?usp=sharing",
+    type: "Internship",
+    technologies: ["Vue.js", "Supabase","HTML", "CSS", "Bootstrap", "Firebase", "postgreSQL"],
+  },
+  {
+    title: "Data Analyst",
+    location: "IBM SkillBuild & CSRBOX",
+    description:
+    [
+      "Used Matplotlib, Python and SQL for interactive visualizations, resulting in a 20 % boost in informed decision - making.", "Deployed Sweetviz and dtale for automated data summaries, saving analysts 30 % of their time and enabling deeper analysis.",
+    ],
+    icon: React.createElement(TbCertificate),
+    date: "Dec 2023 - Jan 2024",
+    link: "https://drive.google.com/file/d/12g-3sLAXTTyBHmCNh4jyRd_MVqTI0lPU/view",
+    type: "Apprenticeship",
+    technologies: ["Python", "Matplotlib","seaborn", "Sweetviz", "dtale","MySQl","numpy","pandas"],
+  },
+  {
+    title: "Web Developer",
     location: "NullClass EdTech. Pvt. Ltd.",
     description:
       [
-        "Expanded platform reach to global audiences with multilingual support for 100 + languages, seamlessly handling including user- generated content.","Increased user interactions and strengthened account security by implementing a Rewards system and Real - time login tracking features."
+        "Leveraged React i18next to create a robust multilingual feature for the platform. This feature supports both static and user-generated content, ensuring a positive user experience for a global audience."
       ],
     icon: React.createElement(TbCertificate),
     date: "Nov 2023 - Jan 2024",
     link: "https://drive.google.com/file/d/1dzUpDwNq5gGtGxkVmawHD5kLm-11ocYc/view",
+    type: "Internship",
+    technologies: ["React", "Node.js","Express.js", "MongoDB", "react i18next", "Typescript"],
   },
   {
-    title: "Data Analyst",
-    location: "IBM SkillBuild",
+    title: "Machine Learning",
+    location: "Kaggle",
     description:
       [
-        "Used Matplotlib, Python and SQL for interactive visualizations, resulting in a 20 % boost in informed decision - making.", "Deployed Sweetviz and dtale for automated data summaries, saving analysts 30 % of their time and enabling deeper analysis.",
+        "Learned the how models work, basic data exploration, data visualization, feature engineering, and model selection."
+        ,"Implemented various models like Linear Regression, Logistic Regression, Decision Trees, Random Forest, etc."
       ],
     icon: React.createElement(TbCertificate),
-    date: "Dec 2023 - Jan 2024",
-    link: "https://drive.google.com/file/d/12g-3sLAXTTyBHmCNh4jyRd_MVqTI0lPU/view",
+    date: "Oct 2023 - Nov 2023",
+    link: "https://drive.google.com/file/d/1luKD3xS6aIN2atqCbLth0hVJPIpeMEO0/view",
+    type: "Coursework",
+    technologies: ["Machine Learing", "python", "numpy", "pandas", "tensorflow", "scikit-learn"],
   },
   {
     title: "React Native Head",
     location: "IOSD-MAIT Technical Society",
     description:
-      [
-        "Developed the IOSD-MAIT and Impulse'24 website with the Web Development Team.","Mentored students in React Native and organized engaging tech events attracting 500+ participants.",
-      ],
+    [
+      "Developed the IOSD-MAIT and Impulse'24 website with the Web Development Team.","Mentored students in React Native and organized engaging tech events attracting 500+ participants.",
+    ],
     icon: React.createElement(GoFileCode),
     date: "Aug 2023 - present",
     link: "https://iosdimpulse.in/",
+    type: "Leadership",
+    technologies: ["React Native", "React", "Node.js", ],
+  },
+  
+  {
+    title: "Web Developer",
+    location: "PSPTechHub Services Pvt. Ltd.",
+    description: [
+      "Spearheaded the development of a cross-platform consultation mobile application for iOS and Android using React Native, resulting in a 30% reduction in development time.","Worked with Google Firebase and Apps script to manage user entered data across 3 different platforms including web and mobile applications.","Collaborated in a team of 7 for building a Responsive and Search Engine Optimized website using HTML, CSS and JavaScript targeting a 25% increase in organic traffic within 2 months."
+    ],
+    icon: React.createElement(TbCertificate),
+    date: "May 2023 - Oct -2023",
+    link: "https://drive.google.com/file/d/1-K-ZwTyWDbkcj9BHGis2iQdgjDCMSWZB/view",
+    type: "Internship",
+    technologies: ["React Native", "Google Firebase","appscript", "Html", "Css","javascript","SEO"],
+  },
+  {
+    title: "Advanced Javascript",
+    location: "Udemy",
+    description:
+      [
+        "Studied the advanced concepts of Javascript like closures, hoisting, scope, etc and used them in various projects.","Practiced 100+ problems and learned to write clean and efficient code."
+      ],
+    icon: React.createElement(TbCertificate),
+    date: "May 2023 - Aug 2023",
+    link: "https://drive.google.com/file/d/14kgA0OGeLxrg_ltAaao3maDP-mkn4COe/view",
+    type: "Coursework",
+    technologies: ["javascript"],
   },
   {
     title: "Core Member",
@@ -99,7 +161,47 @@ export const experiencesData = [
       ],
     icon: React.createElement(TbCertificate),
     date: "May 2023 - present",
-    link: "https://linkedin.com/in/JaiSukheja02",
+    link: "https://drive.google.com/file/d/1znN2dwf8UyhXdsujsCOllStoT0ziH4ti/view",
+    type: "Leadership",
+    technologies: ["Computer Science", "Coding", "Competitive Programming", "Web Development"],
+  },
+  {
+    title: "Web Development",
+    location: "Coding Blocks",
+    description:
+      [
+        "Gained in-depth knowledge of React, Node.js, MongoDB, Express.js and Version controlling using Git & Github.","Crafted 10+ projects of different complexity levels and technologies." ,"Developed a fully functional Real-time chatting web application, which increased my understanding of CRUD operations and Socket programming."
+      ],
+    icon: React.createElement(TbCertificate),
+    date: "Sept 2022 - Mar 2023",
+    link: "https://drive.google.com/file/d/1dtGT4f-Xv7AX1X6YJdtZVl8Oit8TqZiP/view",
+    type: "Coursework",
+    technologies: ["React", "Node.js", "MongoDB", "Express.js", "Handlebars.js", "Rest API", "JWT", "MVC Architecture", "Socket.io", "Web Sockets"],
+  },
+  {
+    title: "HTML & CSS",
+    location: "Udemy",
+    description:
+      [
+        "Learned the basics of HTML, CSS and Web Techonologies.","Created a fully responsive landing page for a OTT platform using HTML and CSS."
+      ],
+    icon: React.createElement(TbCertificate),
+    date: "Sep 2022 - Sep 2022",
+    link: "https://drive.google.com/file/d/1AyIUJb0LXM3CqG7Sq8mUMzO5y-qq6cZL/view",
+    type: "Coursework",
+    technologies: ["HTML", "CSS", "Web Technologies"],
+  },
+  {
+    title: "C++ Programming",
+    location: "Coding Blocks",
+    description:
+      [ "Learned the C++ programming language and its implementation in real world problems.","Acquired knowledge of concepts like Object Oriented programming, Dynamic programming, functions, pointers, and Advanced Data Structure such as Trees, graphs, maps, etc." ,"Solved 500+ problems on various platforms like Leetcode, Codechef, Codeforces, Hackerrank, etc."
+      ],
+    icon: React.createElement(TbCertificate),
+    date: "Apr 2022 - Sep 2022",
+    link: "https://drive.google.com/file/d/14vXHg3EJI2wZCTQysi7qnhzqZM8wXA6A/view",
+    type: "Coursework",
+    technologies: ["Data Structures", "Algorithms", "oops", "dynamic programming","system design"],
   },
 ] as const;
 
@@ -266,6 +368,10 @@ export const skillsData = [
     skillName: "JavaScript",
     skillIcon: React.createElement(IoLogoJavascript),
   },
+  {
+    skillName: "Linux",
+    skillIcon: React.createElement(FaLinux),
+  }
 ] as const;
 
 export const certificatesData = [
